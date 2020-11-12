@@ -1,0 +1,39 @@
+<template>
+  <el-aside width="200px" class="aside">
+    <el-menu router>
+      <el-menu-item index="/index">
+        <span slot="title">首页</span>
+      </el-menu-item>
+      <el-menu-item index="/map">
+        <span slot="title">地图</span>
+      </el-menu-item>
+      <el-menu-item index="/demo">
+        <span slot="title">demo</span>
+      </el-menu-item>
+      <!-- 有子级 -->
+      <el-submenu index="1-4">
+        <template slot="title">
+          <span slot="title">demo</span>
+        </template>
+        <el-menu-item index="/demo/calendar">calendar</el-menu-item>
+        <el-menu-item index="/demo/transfer">transfer</el-menu-item>
+        <el-menu-item index="/demo/carousel">Carousel</el-menu-item>
+      </el-submenu>
+    </el-menu>
+  </el-aside>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style scoped>
+.aside {
+  background: #fff;
+}
+.aside .el-menu {
+  border-right: none;
+  background-color: #fff;
+  color: #fff;
+}
+</style>
