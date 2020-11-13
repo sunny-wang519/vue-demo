@@ -27,6 +27,11 @@ export default {
 </script>
 
 <style scoped>
+.el-footer{
+  position: absolute;
+    bottom: 0;
+    width: 100%;  
+}
 .el-header,
 .el-footer {
   background-color: #B3C0D1;
