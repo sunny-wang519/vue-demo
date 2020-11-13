@@ -13,11 +13,11 @@
       <!-- 有子级 -->
       <el-submenu index="1-4">
         <template slot="title">
-          <span slot="title">demo</span>
+          <span slot="title">demo1</span>
         </template>
-        <el-menu-item index="/demo/calendar">calendar</el-menu-item>
-        <el-menu-item index="/demo/transfer">transfer</el-menu-item>
-        <el-menu-item index="/demo/carousel">Carousel</el-menu-item>
+        <el-menu-item index="/demo1/calendar">calendar</el-menu-item>
+        <el-menu-item index="/demo1/transfer">transfer</el-menu-item>
+        <el-menu-item index="/demo1/carousel">Carousel</el-menu-item>
       </el-submenu>
     </el-menu>
   </el-aside>
