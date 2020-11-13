@@ -1,11 +1,11 @@
 <template>
   <el-aside width="200px" class="aside">
     <el-menu router>
-      <el-menu-item index="/index">
-        <span slot="title">首页</span>
+      <el-menu-item index="/home">
+        <span slot="title">index</span>
       </el-menu-item>
       <el-menu-item index="/map">
-        <span slot="title">地图</span>
+        <span slot="title">map</span>
       </el-menu-item>
       <el-menu-item index="/demo">
         <span slot="title">demo</span>

@@ -14,16 +14,15 @@ const carousel = r => require.ensure([], () => r(require('../views/demo1/carouse
 
 
 const routes = [
-  { path: '/', redirect: '/home' },
+  { path: '/', redirect: '/index'},
   {
     path: '/login',
     name:'login',
-    component: login
+    component: login,
   },
   {
-    path:'/home',
-    name:'home',
-    redirect:'/index',
+    path:'/index',
+    name:'index',
     component:index,
     children:[
       {
@@ -47,17 +46,17 @@ const routes = [
         component: demo1,
         children:[
           {
-            path:'/calendar',
+            path:'/demo1/calendar',
             name:'calendar',
             component:calendar
           },
           {
-            path:'/transfer',
+            path:'/demo1/transfer',
             name:'transfer',
             component:transfer
           },
           {
-            path:'/carousel',
+            path:'/demo1/carousel',
             name:'carousel',
             component:carousel
           }

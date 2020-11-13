@@ -8,11 +8,11 @@
     </el-breadcrumb>
     <div class="right-menu">
       <img
-        src="../../assets/logo.png"
+        src="../assets/logo.png"
         alt="图片"
         style="width: 50px; height: 50px; border-radius: 50%"
       />
-      <span>登录</span>
+      <span>login</span>
     </div>
   </div>
 </template>

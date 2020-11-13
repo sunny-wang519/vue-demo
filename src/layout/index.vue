@@ -15,9 +15,9 @@
 </template>
 
 <script>
-import {Sidebar,Navbar,Main} from './components'
+import {Sidebar,Navbar,Main} from '../components'
 export default {
-    name:'Home',
+    name:'index',
     components:{
         Sidebar,
         Navbar,
