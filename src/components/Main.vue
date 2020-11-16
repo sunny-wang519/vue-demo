@@ -7,6 +7,11 @@
 <script>
 
 export default {
- 
 }
 </script>
+
+<style scoped>
+.app-main{
+  margin-top: 60px;
+}
+</style>

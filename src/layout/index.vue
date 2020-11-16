@@ -1,13 +1,15 @@
 <template>
   <div class="app">
     <el-container>
-      <el-header>Header</el-header>
+      <el-header><Header></Header></el-header>
       <el-container>
         <Sidebar width="200px">Aside</Sidebar>
-      <el-container>
-          <el-header><Navbar/></el-header>
-          <el-main><Main/></el-main>
-      </el-container>
+        <el-container>
+          <el-main>
+            <Navbar />
+            <Main />
+          </el-main>
+        </el-container>
       </el-container>
       <el-footer>Footer</el-footer>
     </el-container>
@@ -15,15 +17,16 @@
 </template>
 
 <script>
-import {Sidebar,Navbar,Main} from '../components'
+import { Header,Sidebar, Navbar, Main } from "../components";
 export default {
-    name:'index',
-    components:{
-        Sidebar,
-        Navbar,
-        Main
-    }
-}
+  name: "index",
+  components: {
+    Header,
+    Sidebar,
+    Navbar,
+    Main,
+  },
+};
 </script>
 
 <style scoped>
@@ -52,6 +55,7 @@ export default {
   color: #333;
   text-align: center;
   line-height: 160px;
+  padding:5px !important;
 }
 
 body > .el-container {
