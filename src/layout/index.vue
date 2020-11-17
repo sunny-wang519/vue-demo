@@ -29,7 +29,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 /* .el-footer{
   position: absolute;
     bottom: 0;

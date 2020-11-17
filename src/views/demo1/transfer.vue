@@ -44,9 +44,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .el-transfer{
   text-align: left !important;
   margin-left: 10%;
+  /* color: #42b983; */
 }
 </style>

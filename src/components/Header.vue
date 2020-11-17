@@ -24,32 +24,32 @@
 export default {};
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .right {
   float: right;
   width: 150px;
   height: 60px;
   line-height: 60px;
-}
-.right img {
-  float: left;
-  margin: 5px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-.right-menu {
-  float: right;
-}
-.el-dropdown{
-    font-size: 16px;
-    font-family: "黑体";
-}
-.el-dropdown-link {
-  cursor: pointer;
-  color: #409EFF;
-}
-.el-icon-arrow-down {
-  font-size: 14px;
+  img {
+    float: left;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .right-menu {
+    float: right;
+    .el-dropdown {
+      font-size: 16px;
+      font-family: "黑体";
+    }
+    .el-dropdown-link {
+      cursor: pointer;
+      color: #409eff;
+    }
+    .el-icon-arrow-down {
+      font-size: 14px;
+    }
+  }
 }
 </style>

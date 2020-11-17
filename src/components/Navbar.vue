@@ -18,12 +18,10 @@
 </template>
 
 <script>
-export default {
-  
-}
+export default {};
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .breadcrumb {
   float: left;
   width: 100%;
@@ -31,15 +29,16 @@ export default {
   margin: 0;
   padding: 0;
   background-color: rgba(179, 192, 209, 0.5);
+  .el-breadcrumb {
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+  }
+  .icon_s {
+    color: blue;
+  }
 }
-.el-breadcrumb {
-  height: 50px;
-  line-height: 50px;
-  margin-left: 10px;
-}
-.icon_s{
-  color:blue;
-}
+
 /* .right-menu {
   float: right;
   width: 50%;
