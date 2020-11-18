@@ -2,7 +2,7 @@
   <el-aside width="200px" class="aside">
     <el-menu router>
       <el-menu-item index="/home">
-        <span slot="title">index</span>
+        <span slot="title">home_list</span>
       </el-menu-item>
       <el-menu-item index="/map">
         <span slot="title">map</span>
@@ -13,18 +13,30 @@
       <!-- 有子级 -->
       <el-submenu index="1-4">
         <template slot="title">
-          <span slot="title">demo1</span>
+          <span slot="title">other</span>
         </template>
-        <el-menu-item index="/demo1/calendar">calendar</el-menu-item>
-        <el-menu-item index="/demo1/transfer">transfer</el-menu-item>
-        <el-menu-item index="/demo1/carousel">Carousel</el-menu-item>
+        <el-menu-item index="/other/calendar">calendar</el-menu-item>
+        <el-menu-item index="/other/transfer">transfer</el-menu-item>
+        <el-menu-item index="/other/carousel">carousel</el-menu-item>
       </el-submenu>
+      <el-menu-item index="/form_demo">
+        <span slot="title">form</span>
+      </el-menu-item>
     </el-menu>
   </el-aside>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      
+    };
+  },
+  method: {
+    
+  },
+};
 </script>
 
 <style lang="scss" scoped>

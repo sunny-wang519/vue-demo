@@ -30,9 +30,9 @@ export default {};
   line-height: 60px;
   img {
     float: left;
-    margin: 5px;
-    width: 50px;
-    height: 50px;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
   }
   .right-menu {
@@ -46,7 +46,7 @@ export default {};
       color: #409eff;
     }
     .el-icon-arrow-down {
-      font-size: 14px;
+      font-size: 16px;
     }
   }
 }
