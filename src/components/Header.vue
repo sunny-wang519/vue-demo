@@ -37,16 +37,18 @@ export default {};
   }
   .right-menu {
     float: right;
+    font-size: 18px;
+    font-family: "黑体";
     .el-dropdown {
-      font-size: 16px;
-      font-family: "黑体";
-    }
-    .el-dropdown-link {
-      cursor: pointer;
-      color: #409eff;
-    }
-    .el-icon-arrow-down {
-      font-size: 16px;
+      margin-left: 15px;
+      .el-icon-setting {
+        color: #fff;
+        font-size: 18px;
+      }
+      .el-dropdown-link {
+        cursor: pointer;
+        color: #409eff;
+      }
     }
   }
 }

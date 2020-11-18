@@ -40,12 +40,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.aside {
-  background: #fff;
-  .el-menu {
-    border-right: none;
-    background-color: #fff;
-    color: #fff;
-  }
-}
+
 </style>

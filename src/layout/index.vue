@@ -35,24 +35,27 @@ export default {
     bottom: 0;
     width: 100%;  
 } */
-.el-header,
+.el-header{
+  background-color: #626974;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+}
 .el-footer {
-  background-color: #B3C0D1;
-  color: #333;
+  background-color: #a0aab9;
+  color: #fff;
   text-align: center;
   line-height: 60px;
 }
 
 .el-aside {
-  background-color: #D3DCE6;
-  color: #333;
+  background-color: #c9d3df;
   text-align: center;
   line-height: 200px;
 }
 
 .el-main {
-  background-color: #E9EEF3;
-  color: #333;
+  background-color: #e7ecf1;
   text-align: center;
   /* line-height: 160px; */
   padding:5px !important;
