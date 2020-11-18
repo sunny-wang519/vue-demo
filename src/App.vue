@@ -4,6 +4,4 @@
   </div>
 </template>
 
-<style>
-/* color: #42b983; */
-</style>
+

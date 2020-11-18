@@ -27,13 +27,13 @@
 export default {};
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .aside {
   background: #fff;
-}
-.aside .el-menu {
-  border-right: none;
-  background-color: #fff;
-  color: #fff;
+  .el-menu {
+    border-right: none;
+    background-color: #fff;
+    color: #fff;
+  }
 }
 </style>

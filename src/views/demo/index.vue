@@ -1,3 +1,13 @@
 <template>
-    <div class="demo">Demo</div>
+  <div class="demo">
+    demo
+  </div>
 </template>
+
+<script>
+
+</script>
+
+<style lang="scss" scoped>
+
+</style>

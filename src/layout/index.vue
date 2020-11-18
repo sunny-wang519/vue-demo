@@ -28,7 +28,8 @@ export default {
   },
 };
 </script>
-<style scoped>
+
+<style>
 /* .el-footer{
   position: absolute;
     bottom: 0;
@@ -53,7 +54,6 @@ export default {
   background-color: #E9EEF3;
   color: #333;
   text-align: center;
-
   padding:5px !important;
 }
 
