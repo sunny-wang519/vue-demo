@@ -12,6 +12,6 @@ export default {
 
 <style lang="scss" scoped>
 .app-main{
-  margin-top: 60px;
+  margin-top: 50px;
 }
 </style>

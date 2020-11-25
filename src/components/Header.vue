@@ -30,23 +30,25 @@ export default {};
   line-height: 60px;
   img {
     float: left;
-    margin: 5px;
-    width: 50px;
-    height: 50px;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
   }
   .right-menu {
     float: right;
+    font-size: 18px;
+    font-family: "黑体";
     .el-dropdown {
-      font-size: 16px;
-      font-family: "黑体";
-    }
-    .el-dropdown-link {
-      cursor: pointer;
-      color: #409eff;
-    }
-    .el-icon-arrow-down {
-      font-size: 14px;
+      margin-left: 15px;
+      .el-icon-setting {
+        color: #fff;
+        font-size: 18px;
+      }
+      .el-dropdown-link {
+        cursor: pointer;
+        color: #409eff;
+      }
     }
   }
 }

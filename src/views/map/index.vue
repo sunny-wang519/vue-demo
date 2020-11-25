@@ -34,5 +34,16 @@ export default {
   width: auto;
   height: 600px;
   margin: 0 auto;
+  //去掉百度地图的文字及图片
+  /deep/.BMap_cpyCtrl {
+    display: none;
+  }
+  /deep/.anchorBL img{
+    display: none !important;
+  }
+  //百度地图比例尺位置
+  /deep/ .BMap_scaleCtrl{
+    left:10px !important;
+  }
 }
 </style>

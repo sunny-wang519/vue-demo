@@ -5,7 +5,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 import router from './router'
 import store from './store'
 import BaiduMap from 'vue-baidu-map'
-
+import './assets/css/reset.css'
 
 Vue.use(BaiduMap, {
   ak: "zfbPHKyDM9GhrMPltNZxdyxZ0VAMj0pa"

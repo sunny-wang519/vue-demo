@@ -2,7 +2,7 @@
   <el-transfer
     filterable
     :filter-method="filterMethod"
-    filter-placeholder="请输入城市拼音"
+    filter-placeholder="请输入城市"
     v-model="value"
     :data="data"
   >
@@ -14,30 +14,35 @@ export default {
   data() {
     const generateData = () => {
       const data = [];
-      const cities = ["上海", "北京", "广州", "深圳", "南京", "西安", "成都"];
-      const pinyin = [
-        "shanghai",
-        "beijing",
-        "guangzhou",
-        "shenzhen",
-        "nanjing",
-        "xian",
-        "chengdu",
+      const cities = ["上海", "北京", "广州", "深圳","长春", "南京", "西安", "成都","武汉","长沙","南宁","淮北"];
+      const citys = [
+        "上海",
+        "北京",
+        "广州",
+        "深圳",
+        "南京",
+        "西安",
+        "成都",
+        "武汉",
+        "长沙",
+        "南宁",
+        "淮北",
+        "长春"
       ];
       cities.forEach((city, index) => {
         data.push({
           label: city,
           key: index,
-          pinyin: pinyin[index],
+          citys: citys[index],
         });
       });
       return data;
     };
     return {
       data: generateData(),
-      value: [],
+      value: [0,1,4,6,8,9],
       filterMethod(query, item) {
-        return item.pinyin.indexOf(query) > -1;
+        return item.citys.indexOf(query) > -1;
       },
     };
   },
