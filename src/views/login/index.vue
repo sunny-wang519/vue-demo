@@ -122,8 +122,7 @@
                     if (valid) {
                         console.log(valid)
                         return true
-                    }else {
-                         
+                    }else {                         
                     // 没有输入数据进入===> valid 为false
                     return false
                     }
